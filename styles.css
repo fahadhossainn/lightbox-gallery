@@ -26,6 +26,10 @@ body {
 }
 .container .image__container {
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.container .image__container:hover {
+  transform: scale(0.8);
 }
 .container .image__container > img {
   width: 100%;
